@@ -1,3 +1,10 @@
 .worktrees/
 .private-journal/
 .claude/
+.cursor/
+.opencode/
+.codex/
+.trae/
+.claude-plugin/
+
+archive/

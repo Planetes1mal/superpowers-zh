@@ -1,5 +1,10 @@
 # Superpowers
 
+<p align="left">
+  <a href="README.md">English</a> |
+  <a href="README.zh-cn.md">简体中文</a>
+</p>
+
 Superpowers is a complete software development workflow for your coding agents, built on top of a set of composable "skills" and some initial instructions that make sure your agent uses them.
 
 ## How it works
