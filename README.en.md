@@ -94,26 +94,38 @@ Fetch and follow instructions from https://raw.githubusercontent.com/obra/superp
 ### Skills Library
 
 **Testing**
-- **test-driven-development** - RED-GREEN-REFACTOR cycle (includes testing anti-patterns reference)
+
+| Skill | Description | Files |
+|-------|-------------|-------|
+| [test-driven-development](skills/test-driven-development/SKILL.md) | Use when implementing any feature or bugfix, before writing implementation code | [SKILL.md](skills/test-driven-development/SKILL.md) · [testing-anti-patterns.md](skills/test-driven-development/testing-anti-patterns.md) |
 
 **Debugging**
-- **systematic-debugging** - 4-phase root cause process (includes root-cause-tracing, defense-in-depth, condition-based-waiting techniques)
-- **verification-before-completion** - Ensure it's actually fixed
 
-**Collaboration** 
-- **brainstorming** - Socratic design refinement
-- **writing-plans** - Detailed implementation plans
-- **executing-plans** - Batch execution with checkpoints
-- **dispatching-parallel-agents** - Concurrent subagent workflows
-- **requesting-code-review** - Pre-review checklist
-- **receiving-code-review** - Responding to feedback
-- **using-git-worktrees** - Parallel development branches
-- **finishing-a-development-branch** - Merge/PR decision workflow
-- **subagent-driven-development** - Fast iteration with two-stage review (spec compliance, then code quality)
+| Skill | Description | Files |
+|-------|-------------|-------|
+| [systematic-debugging](skills/systematic-debugging/SKILL.md) | Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes | [SKILL.md](skills/systematic-debugging/SKILL.md) · [root-cause-tracing.md](skills/systematic-debugging/root-cause-tracing.md) · [defense-in-depth.md](skills/systematic-debugging/defense-in-depth.md) · [condition-based-waiting.md](skills/systematic-debugging/condition-based-waiting.md) · [CREATION-LOG.md](skills/systematic-debugging/CREATION-LOG.md) · [test-academic.md](skills/systematic-debugging/test-academic.md) · [test-pressure-1.md](skills/systematic-debugging/test-pressure-1.md) · [test-pressure-2.md](skills/systematic-debugging/test-pressure-2.md) · [test-pressure-3.md](skills/systematic-debugging/test-pressure-3.md) |
+| [verification-before-completion](skills/verification-before-completion/SKILL.md) | Use when about to claim work is complete, fixed, or passing, before committing or creating PRs | [SKILL.md](skills/verification-before-completion/SKILL.md) |
+
+**Collaboration**
+
+| Skill | Description | Files |
+|-------|-------------|-------|
+| [brainstorming](skills/brainstorming/SKILL.md) | You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior | [SKILL.md](skills/brainstorming/SKILL.md) |
+| [writing-plans](skills/writing-plans/SKILL.md) | Use when you have a spec or requirements for a multi-step task, before touching code | [SKILL.md](skills/writing-plans/SKILL.md) |
+| [executing-plans](skills/executing-plans/SKILL.md) | Use when you have a written implementation plan to execute in a separate session with review checkpoints | [SKILL.md](skills/executing-plans/SKILL.md) |
+| [dispatching-parallel-agents](skills/dispatching-parallel-agents/SKILL.md) | Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies | [SKILL.md](skills/dispatching-parallel-agents/SKILL.md) |
+| [subagent-driven-development](skills/subagent-driven-development/SKILL.md) | Use when executing implementation plans with independent tasks in the current session | [SKILL.md](skills/subagent-driven-development/SKILL.md) · [implementer-prompt.md](skills/subagent-driven-development/implementer-prompt.md) · [spec-reviewer-prompt.md](skills/subagent-driven-development/spec-reviewer-prompt.md) · [code-quality-reviewer-prompt.md](skills/subagent-driven-development/code-quality-reviewer-prompt.md) |
+| [requesting-code-review](skills/requesting-code-review/SKILL.md) | Use when completing tasks, implementing major features, or before merging to verify work meets requirements | [SKILL.md](skills/requesting-code-review/SKILL.md) · [code-reviewer.md](skills/requesting-code-review/code-reviewer.md) |
+| [receiving-code-review](skills/receiving-code-review/SKILL.md) | Use when receiving code review feedback, before implementing suggestions | [SKILL.md](skills/receiving-code-review/SKILL.md) |
+| [using-git-worktrees](skills/using-git-worktrees/SKILL.md) | Use when starting feature work that needs isolation from current workspace or before executing implementation plans | [SKILL.md](skills/using-git-worktrees/SKILL.md) |
+| [finishing-a-development-branch](skills/finishing-a-development-branch/SKILL.md) | Use when implementation is complete, all tests pass, and you need to decide how to integrate the work | [SKILL.md](skills/finishing-a-development-branch/SKILL.md) |
 
 **Meta**
-- **writing-skills** - Create new skills following best practices (includes testing methodology)
-- **using-superpowers** - Introduction to the skills system
+
+| Skill | Description | Files |
+|-------|-------------|-------|
+| [writing-skills](skills/writing-skills/SKILL.md) | Use when creating new skills, editing existing skills, or verifying skills work before deployment | [SKILL.md](skills/writing-skills/SKILL.md) · [anthropic-best-practices.md](skills/writing-skills/anthropic-best-practices.md) · [persuasion-principles.md](skills/writing-skills/persuasion-principles.md) · [testing-skills-with-subagents.md](skills/writing-skills/testing-skills-with-subagents.md) · [examples/CLAUDE_MD_TESTING.md](skills/writing-skills/examples/CLAUDE_MD_TESTING.md) |
+| [using-superpowers](skills/using-superpowers/SKILL.md) | Use when starting any conversation - establishes how to find and use skills | [SKILL.md](skills/using-superpowers/SKILL.md) |
 
 ## Philosophy
 

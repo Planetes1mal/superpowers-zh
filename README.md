@@ -92,26 +92,38 @@ Fetch and follow instructions from https://raw.githubusercontent.com/obra/superp
 ### 技能库
 
 **测试**
-- **test-driven-development** - RED-GREEN-REFACTOR 循环（含测试反模式参考）
+
+| 技能 | 描述 | 文件 |
+|------|------|------|
+| [test-driven-development](skills/test-driven-development/SKILL.zh-cn.md) | 在实现任何功能或修复 bug 时使用，在编写实现代码之前 | [SKILL.md](skills/test-driven-development/SKILL.md) · [中文](skills/test-driven-development/SKILL.zh-cn.md) <br />[testing-anti-patterns.md](skills/test-driven-development/testing-anti-patterns.md) · [中文](skills/test-driven-development/testing-anti-patterns.zh-cn.md) |
 
 **调试**
-- **systematic-debugging** - 四阶段根因分析（含根因追溯、纵深防御、基于条件的等待等技巧）
-- **verification-before-completion** - 确保问题真的被修好
+
+| 技能 | 描述 | 文件 |
+|------|------|------|
+| [systematic-debugging](skills/systematic-debugging/SKILL.zh-cn.md) | 在遇到任何 bug、测试失败或意外行为时使用，在提出修复之前 | [SKILL.md](skills/systematic-debugging/SKILL.md) · [中文](skills/systematic-debugging/SKILL.zh-cn.md)<br />[root-cause-tracing.md](skills/systematic-debugging/root-cause-tracing.md) · [中文](skills/systematic-debugging/root-cause-tracing.zh-cn.md)<br />[defense-in-depth.md](skills/systematic-debugging/defense-in-depth.md) · [中文](skills/systematic-debugging/defense-in-depth.zh-cn.md)<br />[condition-based-waiting.md](skills/systematic-debugging/condition-based-waiting.md) · [中文](skills/systematic-debugging/condition-based-waiting.zh-cn.md)<br />[CREATION-LOG.md](skills/systematic-debugging/CREATION-LOG.md) · [中文](skills/systematic-debugging/CREATION-LOG.zh-cn.md) <br />[test-academic.md](skills/systematic-debugging/test-academic.md) · [中文](skills/systematic-debugging/test-academic.zh-cn.md) <br />[test-pressure-1.md](skills/systematic-debugging/test-pressure-1.md) · [中文](skills/systematic-debugging/test-pressure-1.zh-cn.md) <br />[test-pressure-2.md](skills/systematic-debugging/test-pressure-2.md) · [中文](skills/systematic-debugging/test-pressure-2.zh-cn.md) <br />[test-pressure-3.md](skills/systematic-debugging/test-pressure-3.md) · [中文](skills/systematic-debugging/test-pressure-3.zh-cn.md) |
+| [verification-before-completion](skills/verification-before-completion/SKILL.zh-cn.md) | 在即将声称工作完成、修复或通过时，在提交或创建 PR 之前使用 | [SKILL.md](skills/verification-before-completion/SKILL.md) · [中文](skills/verification-before-completion/SKILL.zh-cn.md) |
 
 **协作**
-- **brainstorming** - 苏格拉底式设计细化
-- **writing-plans** - 详细实现计划
-- **executing-plans** - 带检查点的分批执行
-- **dispatching-parallel-agents** - 并发 subagent 工作流
-- **requesting-code-review** - 提交前评审清单
-- **receiving-code-review** - 对反馈的回应
-- **using-git-worktrees** - 并行开发分支
-- **finishing-a-development-branch** - 合并/PR 决策流程
-- **subagent-driven-development** - 两阶段评审下的快速迭代（先规格符合度，再代码质量）
+
+| 技能 | 描述 | 文件 |
+|------|------|------|
+| [brainstorming](skills/brainstorming/SKILL.zh-cn.md) | 在进行任何创意工作之前必须使用——包括创建功能、构建组件、添加功能或修改行为 | [SKILL.md](skills/brainstorming/SKILL.md) · [中文](skills/brainstorming/SKILL.zh-cn.md) |
+| [writing-plans](skills/writing-plans/SKILL.zh-cn.md) | 当你有一个多步骤任务的规格或需求时，在接触代码之前使用 | [SKILL.md](skills/writing-plans/SKILL.md) · [中文](skills/writing-plans/SKILL.zh-cn.md) |
+| [executing-plans](skills/executing-plans/SKILL.zh-cn.md) | 当你有一个需要在独立会话中执行的书面实施计划，并带有审查检查点时使用 | [SKILL.md](skills/executing-plans/SKILL.md) · [中文](skills/executing-plans/SKILL.zh-cn.md) |
+| [dispatching-parallel-agents](skills/dispatching-parallel-agents/SKILL.zh-cn.md) | 当面对 2 个或更多可以独立工作、无需共享状态或顺序依赖的任务时使用 | [SKILL.md](skills/dispatching-parallel-agents/SKILL.md) · [中文](skills/dispatching-parallel-agents/SKILL.zh-cn.md) |
+| [subagent-driven-development](skills/subagent-driven-development/SKILL.zh-cn.md) | 在当前会话中执行具有独立任务的实现计划时使用 | [SKILL.md](skills/subagent-driven-development/SKILL.md) · [中文](skills/subagent-driven-development/SKILL.zh-cn.md) <br />[implementer-prompt.md](skills/subagent-driven-development/implementer-prompt.md) · [中文](skills/subagent-driven-development/agent-prompt.zh-cn/implementer-prompt.zh-cn.md) <br />[spec-reviewer-prompt.md](skills/subagent-driven-development/spec-reviewer-prompt.md) · [中文](skills/subagent-driven-development/agent-prompt.zh-cn/spec-reviewer-prompt.zh-cn.md) <br />[code-quality-reviewer-prompt.md](skills/subagent-driven-development/code-quality-reviewer-prompt.md) · [中文](skills/subagent-driven-development/agent-prompt.zh-cn/code-quality-reviewer-prompt.zh-cn.md) |
+| [requesting-code-review](skills/requesting-code-review/SKILL.zh-cn.md) | 在完成任务、实现主要功能或合并前验证工作是否符合要求时使用 | [SKILL.md](skills/requesting-code-review/SKILL.md) · [中文](skills/requesting-code-review/SKILL.zh-cn.md) <br />[code-reviewer.md](skills/requesting-code-review/code-reviewer.md) · [中文](skills/requesting-code-review/agent-prompt.zh-cn/code-reviewer.zh-cn.md) |
+| [receiving-code-review](skills/receiving-code-review/SKILL.zh-cn.md) | 在收到代码审查反馈时使用，在实施建议之前 | [SKILL.md](skills/receiving-code-review/SKILL.md) · [中文](skills/receiving-code-review/SKILL.zh-cn.md) |
+| [using-git-worktrees](skills/using-git-worktrees/SKILL.zh-cn.md) | 在开始需要与当前工作区隔离的功能工作，或在执行实现计划之前使用 | [SKILL.md](skills/using-git-worktrees/SKILL.md) · [中文](skills/using-git-worktrees/SKILL.zh-cn.md) |
+| [finishing-a-development-branch](skills/finishing-a-development-branch/SKILL.zh-cn.md) | 在实现完成、所有测试通过，且需要决定如何集成工作时使用 | [SKILL.md](skills/finishing-a-development-branch/SKILL.md) · [中文](skills/finishing-a-development-branch/SKILL.zh-cn.md) |
 
 **元技能**
-- **writing-skills** - 按最佳实践创建新技能（含测试方法论）
-- **using-superpowers** - 技能系统入门
+
+| 技能 | 描述 | 文件 |
+|------|------|------|
+| [writing-skills](skills/writing-skills/SKILL.zh-cn.md) | 在创建新 skills、编辑现有 skills 或在部署前验证 skills 工作时使用 | [SKILL.md](skills/writing-skills/SKILL.md) · [中文](skills/writing-skills/SKILL.zh-cn.md) <br />[anthropic-best-practices.md](skills/writing-skills/anthropic-best-practices.md) · [中文](skills/writing-skills/anthropic-best-practices.zh-cn.md) <br />[persuasion-principles.md](skills/writing-skills/persuasion-principles.md) · [中文](skills/writing-skills/persuasion-principles.zh-cn.md) <br />[testing-skills-with-subagents.md](skills/writing-skills/testing-skills-with-subagents.md) · [中文](skills/writing-skills/testing-skills-with-subagents.zh-cn.md) <br />[examples/CLAUDE_MD_TESTING.md](skills/writing-skills/examples/CLAUDE_MD_TESTING.md) · [中文](skills/writing-skills/examples/CLAUDE_MD_TESTING.zh-cn.md) |
+| [using-superpowers](skills/using-superpowers/SKILL.zh-cn.md) | 在启动任何对话时使用——建立如何查找和使用 skills | [SKILL.md](skills/using-superpowers/SKILL.md) · [中文](skills/using-superpowers/SKILL.zh-cn.md) |
 
 ## 理念
 
