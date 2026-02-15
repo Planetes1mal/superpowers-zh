@@ -46,7 +46,7 @@ description: 当你有一个多步骤任务的规格或需求时，在接触代�
 
 ## 任务结构
 
-```markdown
+````markdown
 ### 任务 N: [组件名称]
 
 **文件：**
@@ -85,7 +85,7 @@ def function(input):
 git add tests/path/test.py src/path/file.py
 git commit -m "feat: add specific feature"
 ```
-```
+````
 
 ## 记住
 - 始终精确文件路径
